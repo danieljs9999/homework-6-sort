@@ -1,0 +1,31 @@
+.sortForm_conteiner {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px 20px;
+  width: 44rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px 0px 60px 0px;
+  /* gap: 40px; */
+}
+
+.button {
+  border: none;
+  color: white;
+  background-color: #4a026b;
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 120px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #600a87;
+}
+
+.button:active {
+  background-color: #520b73;
+}

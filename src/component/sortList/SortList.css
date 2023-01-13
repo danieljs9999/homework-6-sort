@@ -1,0 +1,19 @@
+.ul {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px 20px;
+  width: 44rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0px 60px 0px;
+  gap: 20px;
+}
+
+.li {
+  border: 1.5px solid rgba(59, 59, 59, 0.888);
+  padding: 10px 0px 10px 10px;
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
