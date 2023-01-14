@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import Input from "../UI/input/Input";
+import styles from "./SortItem.module.css";
 
 function SortItem({ addNevExpenseHandler }) {
   const [name, setname] = useState("");
   const [age, setAge] = useState("");
-
-  const style = {
-    marginTop: "-5px",
-  };
 
   const disabled = name && age;
 
@@ -40,7 +37,7 @@ function SortItem({ addNevExpenseHandler }) {
         title={"Username"}
         value={name}
         onChange={usernameInput}
-        style={style}
+        style={{ marginTop: "-5px" }}
       />
       <Input
         type={"number"}
@@ -49,7 +46,7 @@ function SortItem({ addNevExpenseHandler }) {
         onChange={userageInput}
       />
 
-      <button className="button" disabled={!disabled} onClick={add}>
+      <button className={styles.button} disabled={!disabled} onClick={add}>
         Add User
       </button>
     </div>

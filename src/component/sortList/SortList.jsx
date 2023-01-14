@@ -1,14 +1,13 @@
 import React from "react";
-import "./SortList.css";
+import styles from "./SortList.module.css";
 
 function SortList({ addList }) {
   return (
-    <ul className="ul">
+    <ul className={styles.ul}>
       {addList.map((elem) => {
-        // console.log(elem);
         return (
           <div key={Math.random(elem.id)}>
-            <li className="li">
+            <li className={styles.li}>
               {elem.name} ({elem.age} years old)
             </li>
           </div>

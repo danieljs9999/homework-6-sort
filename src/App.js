@@ -11,8 +11,8 @@ function App() {
   ]);
 
   addList.sort((b, a) => {
-    return a.age - b.age
-  })
+    return a.age - b.age;
+  });
 
   const addNevExpenseHandler = (data) => {
     const updatedExpenses = [...addList];
@@ -21,7 +21,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div>
       <SortForm addNevExpenseHandler={addNevExpenseHandler} />
       <SortList addList={addList} />
     </div>

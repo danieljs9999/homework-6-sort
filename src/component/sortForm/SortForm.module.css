@@ -1,0 +1,10 @@
+.sortForm_conteiner {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px 20px;
+  width: 44rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px 0px 60px 0px;
+}
